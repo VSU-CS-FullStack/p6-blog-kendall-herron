@@ -5,7 +5,7 @@ export const CREATE_POST = 'create_post';
 
 export const FETCH_POSTS = 'fetch_posts';
 
-const ROOT_URL = "http://blog-server-kendall-herron.herokuapp.com/api/posts/5bc5f9ff9d9036001565f3b0";
+const ROOT_URL = "https://blog-server-kendall-herron.herokuapp.com/api";
 
 export function fetchPosts(){
     const request = axios.get(`${ROOT_URL}/posts`);
